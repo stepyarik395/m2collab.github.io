@@ -261,7 +261,7 @@ baselayers['jawg-dark'].addTo(map);
 L.control.layers(baselayers).addTo(map);
 L.marker([47.843315, 35.122781], {
   icon: L.icon({
-    iconUrl: '/assets/img/index-map.svg',
+    iconUrl: 'assets/img/index-map.svg',
     iconSize: [30, 30],
   }),
 }).addTo(map);
