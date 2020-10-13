@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  </script>
+</head>
+
+<body data-barba="wrapper">
+  <div class="loader"></div>
+  <div class="bcg-wrapper">
+    <div class="bcg-overlay">
+      <div class="vertical-decor">
+        <div class="vertical-line">
+        </div>
+        <div class="vertical-line out-mob">
+        </div>
+        <div class="vertical-line out-mob">
+        </div>
+        <div class="vertical-line out-mob">
+        </div>
+      </div>
+      <nav class="mob-menu">
+        <a class="mob-menu-item" href="services.html">Услуги</a>
+        <a class="mob-menu-item" href="school-vacancies.html">Школа<br>вакансии</a>
+        <a class="mob-menu-item" href="news.html">Новости</a>
+        <a class="mob-menu-item" href="shares.html">Акции</a>
+      </nav>
+      <header class="header-wrapper">
+        <div class="burger">
+          <div class="burger-brick"></div>
+          <div class="burger-brick middle"></div>
+          <div class="burger-brick"></div>
+        </div>
+        <a href="index.html"><img class="mob-logo" src="assets/img/logo.svg"></a>
+        <div class="header-menu">
+          <div class="menu-item">
+            <a href="services.html">Услуги</a>
+          </div>
+          <div class="menu-item">
+            <a href="school-vacancies.html">Школа<br>вакансии</a>
+          </div>
+          <div class="menu-item">
+            <a href="index.html">
+              <img src="assets/img/logo.svg">
+            </a>
+            <div class="dark-block">
+              <span>haircut? Me too!</span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <a href="news.html">Новости</a>
+          </div>
+          <div class="menu-item">
+            <a href="shares.html">Акции</a>
+          </div>
+        </div>
+      </header>
+      <div class="section1__info-block">
+        <div class="section1__location-block">
+          <img src="assets/img/index-ja.png">
+          <a href="location.html">сталеваров 17, запорожье</a>
+        </div>
+        <div class="section1__work-time">
+          <span>пн-сб 10:00 - 20:00</span>
+        </div>
+        <div class="section1__phone__wrapper">
+          <a href="tel:+78142332211">0995602413</a>
+          <span class="tablet-hide">&nbsp;/&nbsp; </span>
+          <a href="tel:+78142332211">0678546322</a>
+        </div>
+      </div>
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="location__page main">
+          <div class="location__page__wrapper">
+            <div id="map"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
